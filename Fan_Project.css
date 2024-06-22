@@ -1,0 +1,35 @@
+#fan{
+    width: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    animation: rotateA infinite linear;
+}
+.main button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px black;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+ }
+#btn{
+    background-color: white ;
+}
+#btn:hover{
+    background-color: antiquewhite;
+}        
+#onbtn{
+    background-color: #00ff00;
+    margin-left: 456px;
+}
+#offbtn{
+    background-color: red;
+}
+@keyframes rotateA 
+{
+    100%{
+            transform: rotate(360deg);
+        }
+}
